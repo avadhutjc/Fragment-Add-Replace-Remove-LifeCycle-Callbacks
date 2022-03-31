@@ -9,14 +9,15 @@ import androidx.fragment.app.FragmentManager
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
-    //below  properties we never used ..below is java
-//    // private Button mBtnAddA;
-//    private var mBtnRemoveA: Button? = null
-//    private var mBtnReplaceAWithBackstack: Button? = null
-//    private var mBtnReplaceAWithoutBackstack: Button? = null
-//    private var mBtnAddB: Button? = null
-//    private var mBtnReplaceWithA: Button? = null
-//    private var mBtnRemoveB: Button? = null
+
+/*    below  properties we never used ..below is java
+    // private Button mBtnAddA;
+    private var mBtnRemoveA: Button? = null
+    private var mBtnReplaceAWithBackstack: Button? = null
+    private var mBtnReplaceAWithoutBackstack: Button? = null
+    private var mBtnAddB: Button? = null
+    private var mBtnReplaceWithA: Button? = null
+    private var mBtnRemoveB: Button? = null*/
 
     private var fragmentManager: FragmentManager? = null
     override fun onCreate(savedInstanceState: Bundle?) {
